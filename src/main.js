@@ -16,12 +16,12 @@ new Vue({
   store,
   render: (h) => h(App),
 }).$mount("#app");
-
+console.log('VUE_APP_ENTRY',process.env.VUE_APP_ENTRY)
 registerMicroApps(
   [
     {
       name: "micro-vue",
-      entry: '//micro-vue.vercel.app/',
+      entry: process.env.VUE_APP_ENTRY,
       container: "#micro-vue",
       activeRule: "/micro-vue/",
     },
