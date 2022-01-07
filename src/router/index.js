@@ -29,6 +29,12 @@ const routes = [
         component: () =>
           import(/* webpackChunkName: "microVue" */ "../views/MicroVue.vue"),
       },
+      {
+        path: "/micro-vue3/*",
+        name: "MicroVueThree",
+        component: () =>
+          import(/* webpackChunkName: "MicroVueThree" */ "../views/MicroVueThree.vue"),
+      },
     ],
   },
   {

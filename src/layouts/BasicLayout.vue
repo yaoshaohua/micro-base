@@ -15,6 +15,12 @@
         <a-menu-item key="4">
           <router-link to="/micro-vue/about">micro-vue about</router-link>
         </a-menu-item>
+        <a-menu-item key="5">
+          <router-link to="/micro-vue3/">micro-vue3 home</router-link>
+        </a-menu-item>
+        <a-menu-item key="6">
+          <router-link to="/micro-vue3/about">micro-vue3 about</router-link>
+        </a-menu-item>
       </a-menu>
     </a-layout-sider>
     <a-layout>

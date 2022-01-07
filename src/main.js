@@ -16,14 +16,20 @@ new Vue({
   store,
   render: (h) => h(App),
 }).$mount("#app");
-console.log('VUE_APP_ENTRY',process.env.VUE_APP_ENTRY)
+
 registerMicroApps(
   [
     {
       name: "micro-vue",
-      entry: process.env.VUE_APP_ENTRY,
+      entry: process.env.VUE_APP_ENTRY_VUE2,
       container: "#micro-vue",
       activeRule: "/micro-vue/",
+    },
+    {
+      name: "micro-vue3",
+      entry: process.env.VUE_APP_ENTRY_VUE3,
+      container: "#micro-vue3",
+      activeRule: "/micro-vue3/",
     },
   ],
   {
