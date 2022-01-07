@@ -21,7 +21,7 @@ registerMicroApps(
   [
     {
       name: "micro-vue",
-      entry: '//localhost:9001/',
+      entry: '//micro-vue.vercel.app/',
       container: "#micro-vue",
       activeRule: "/micro-vue/",
     },
